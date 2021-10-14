@@ -64,5 +64,16 @@ button {
     border: 0 solid rgba(224, 224, 224, 1);
     color: #ffff;
     font-weight: bold;
+    cursor: pointer;
+    transition: all 0.7s;
 }
 
+button:hover {
+    background-color: rgb(91, 195, 255);
+    font-size: larger;
+}
+
+button:active {
+    color: rgb(184, 5, 41);
+    background: #2071a0;
+}
