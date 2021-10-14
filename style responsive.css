@@ -1,12 +1,12 @@
-@media (max-width: 1200px) and (min-width: 600px) {
+@media (max-width: 1200px) {
     body {
         margin: auto;
         align-items: stretch;
     }
 
     .container {
+        padding-top: 122px;
         position: absolute;
-        width: 80%;
         justify-content: center;
         display: flex;
         flex-wrap: wrap;
@@ -21,8 +21,9 @@
     }
 
     .box1 {
-        margin: 2%;
+        margin: 15px;
     }
+    
 }
 /* 
 @media screen (max-width: 1000px) {
